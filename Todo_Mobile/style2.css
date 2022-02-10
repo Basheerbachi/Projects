@@ -1,0 +1,134 @@
+.main1{
+    margin-top: 50px;
+    margin-left: 450px;
+    
+}
+.heading21{
+    font-size: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hr_head{
+    display: inline-block;
+    width: 100px;
+}
+.block2{
+    font-size: 1rem; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    position: relative;
+    left: 200px;
+}
+.back{
+    font-size: 3rem;
+    position: relative;
+    bottom: 5px;
+}
+.flex-container{
+    display: flex;
+    padding: 20px;   
+}
+.flexitem{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(185, 180, 180);
+     text-align: center;
+    height: 400px;
+    width: 400px;
+    margin: 30px;
+    margin-left: 50px;
+}
+.para1, .para2{
+    color: rgb(231, 58, 58);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+.para2{
+    color: red;
+    text-align: center;
+    margin: 10px; 
+    text-decoration-line:line-through ; 
+}
+.para3{
+    text-align: center;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.radio1{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.hr1{
+    width: 290px;
+    float:right;
+    margin: 0;
+    font-weight: 600;
+}
+.para1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.material-icons.add_icon
+{
+    color: #e72e0e;
+    font-size: 3rem;
+}
+.test{
+    float: right;
+    position: relative;
+    top: 90px;
+    margin: 10px;
+}
+
+@media (max-width: 700px){
+    .main1{
+        margin-top: 20px;
+        margin-left: 0px;
+        
+    }
+    .heading21{
+        position: relative;
+        left: 90px;
+    }
+    .hr_head{
+        display: none;
+    }
+    .back{
+        display: none;
+
+    }
+    .flex-container{
+        display: flex;
+        padding: 20px;   
+    }
+    .flexitem{
+        height: 500px;
+        width: 450px;
+        margin: 30px;
+        margin-left: 50px;
+        position: relative;
+        bottom: 30px;
+        left: 30px;
+        font-size: 30px;
+    }
+    .para2, .para3{
+        font-size: 30px;
+    }
+    .hr1{
+        width: 340px;
+    }
+    .para1{
+        font-size: 40px;
+    }
+    .icon-2{
+        position: relative;
+        right: 180px;
+        bottom: 80px;
+    }
+    .b21{
+        margin-left: 20px;
+    }
+}

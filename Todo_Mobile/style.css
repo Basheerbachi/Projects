@@ -1,0 +1,156 @@
+.main{
+    margin-top: 100px;
+    margin-left: 300px;
+    /* border: 2px solid red; */
+}
+.heading1{
+    font-size: 60px;
+    
+}
+.heading2{
+    font-size: 60px;
+    font-weight:200;
+    color: grey;
+}
+.b1{
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.flex-container{
+    display: flex;
+    padding: 20px;
+    flex-flow: row wrap;
+    
+}
+.flexitem{
+    /* background-color: yellow; */
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(185, 180, 180);
+    /* text-align: center; */
+    height: 350px;
+    width: 250px;
+    margin: 30px;
+}
+/* .flexitem2{
+    background-color: yellow;
+    height: 500px;
+    width:200px;
+    margin: 5px;
+}
+.flexitem3{
+    background-color: yellow;
+    height: 500px;
+    width:200px;
+    margin: 5px;
+} */
+
+.hr1{
+    width: 210px;
+    float:right;
+    margin: 0;
+}
+.para1, .para2{
+    color: rgb(231, 58, 58);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+.para2{
+    color: red;
+    text-align: right;
+    margin: 10px; 
+    text-decoration-line:line-through ; 
+}
+.para3{
+    text-align: left;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.radio1{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.material-icons.add_icon
+{
+    color: #e72e0e;
+    font-size: 3rem;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+.para1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px; 
+}
+a{
+    text-decoration: none;
+}
+.icon-1{
+    margin-left: 380px; 
+    font-size: 35px;
+    color: grey;
+}
+
+@media (max-width: 700px){
+    .flexitem{
+        border: 1px solid rgb(204, 70, 70);
+    height: 80px;
+    width: 380px;
+    margin: 15px;
+    }
+    .flex-container{
+        display: flex;
+        flex-flow: column;
+        padding: 10px;  
+        margin-top: 20px;
+    }
+    .main{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .heading1{
+        font-size: 50px;
+    }
+    .heading2{
+        font-size: 50px;
+    }
+    .b1{
+        margin-left: 10px;
+    }
+    .icon-1{
+        margin-left: 70px; 
+        font-size: 35px;
+        color: grey;
+    }
+    .icon_name{
+        display: none;
+    }
+    .hr1{
+        display: none;
+    }
+    .para1{
+        color: gray;
+        font-size: 20px;
+        margin: 1rem;
+    }
+    .para2{
+        display: none;
+    }
+    .para3{
+        display: none;
+    }
+    .radio1{
+        display: none;
+    }
+    .material-icons.add_icon
+    {
+        right: 30px;
+    }
+    .para1{
+        color: gray;
+        margin: 1rem;
+        font-size: 30px;
+    }
+}
