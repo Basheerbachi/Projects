@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="blur">
+    <div class="container"><br><br>
+
+    <h1 id="heading">Task List</h1>
+    <div class="right_item">
+    <i class="fa-solid fa-circle-plus" style="color:red;" onclick="addpop()"></i>
+    <span id="add_item" ><b>Add Item</b></span>
+</div>
+</div><br><br>
+
+    <p id="no-item">No items in the todo list</p>
+    <div id="parent">        
+    </div>
+</div>
+<section id="popcenter">
+<div id="popup"><br><br>
+    <label for="popup_input"><span class="popup_text">Add New list</span></label><br><br>
+    <input type="text" id="popup_input" value="" placeholder="Enter your Country Name"><br><br>
+    <button onclick="addtask()" class="btn">Add</button>
+    <button onclick="close()" class="btn">Close</button>
+</div>
+</section>
+    
+   
+
+    <script src="./script.js"></script>
+</body>
+</html>
