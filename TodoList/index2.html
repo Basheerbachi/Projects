@@ -9,29 +9,76 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-    <div class="main1">
-        <b class="b21">
-            <hr class="hr_head"><span class="heading21">Trip to Paris</span> <hr class="hr_head">
-            </b><br><br><br>
-        <div class="block2">
-        <span><a href="./index.html">
-            <span class="material-icons add_icon">
-            arrow_circle_left
-        </span></a>
-        </span>
-            <span class="back">Back</span>
-        </div>
-        <div class="flex-container">
-            <div class="flexitem">
-                <p class="para1">Trip to Paris</p><hr class="hr1"><br><br>
-                <p class="para2">Completed Task</p>
-                <p class="para3"><input type="checkbox" class="radio1" name="test">
-                <label for="radio1">Pending Task</label></p>
-                <a href="./index4.html"> <span class="material-icons add_icon test">
-                    add_circle
-                </span></a>
+    <section class="wrapper">
+        <header>
+            <div class="left">
+                <span class="tasks">Tasks</span>
+                <span id="lists">Lists</span>
+            </div>
+            <div class="right">
+                <div class="addflex">
+                    <span class="material-icons add_icon">
+                        add_circle
+                    </span>
+                    <span class="addlist">Add List</span>
+                </div>
+            </div>
+        </header>
+    
+        <div class="box-container">
+            <div class="box box1">
+                <div class="paris">
+                    <a href="" class="link">Trip to Paris</a>
+                </div>
+                <hr>
+                <div class="completed">
+                    Completed Task
+                </div>
+                <form action="">
+                    <input type="checkbox" name="" id="">
+                    <label for="">Pending Task</label>
+                </form>
+            </div>
+            <div class="box box2">
+                <div class="paris">
+                    My Todo List
+                </div>
+                <hr>
+                <div class="completed">
+                    Completed Task
+                </div>
+                <form action="">
+                    <input type="checkbox" name="" id="">
+                    <label for="">Pending Task</label>
+                </form>
+            </div>
+            <div class="box box3">
+                <div class="paris">
+                    My Todo List
+                </div>
+                <hr>
+                <div class="completed">
+                    Completed Task
+                </div>
+                <form action="">
+                    <input type="checkbox" name="" id="">
+                    <label for="">Pending Task</label>
+                </form>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="prompt">
+        <form action="">
+        <label for="" class="add-label">Add New List</label>
+        <input type="text" name="" id="" class="placeholder">
+        <a href="./index.html" class="add-link">
+        <input type="button" value="ADD" class="add-button">
+        </a>
+        </form>
+    </section>
+
+
+
 </body>
 </html>
